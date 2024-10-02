@@ -1,0 +1,37 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    /* border: 1px solid lightgrey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    padding: 40px;
+    border-radius: 20px;
+}
+.todoInput{
+    margin-bottom: 10px;
+}
+.todoButton{
+    width: 200px;
+    padding: 20px;
+    background-color: yellow;
+    
+}
+.LIsttodo{
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    padding: 10px;
+
+
+}
+.todoBtn{
+    border: none;
+    
+}
